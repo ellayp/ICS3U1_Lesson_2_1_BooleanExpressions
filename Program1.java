@@ -2,18 +2,22 @@ class Program1 extends ConsoleProgram {
 
   /**
   * Description
-  * @author:
+  * @author: E. Yap
   */
   
   public void run() {
     
-    boolean z = 4 < 5;
-    System.out.println("The result of 4 < 5 is " + z);
+    /** 
+    * Declaring our boolean variable "blnIsLessThan"
+    * NOTE: always add the variable type (in this case, "bln")
+    */
+    boolean blnIsLessThan = 4 < 5;
+    System.out.println("The result of 4 < 5 is " + blnIsLessThan);
 
-    int x = 4;
-    int y = 5;
-    boolean t = x > y;
-    System.out.println("The result of " + x + " > " + y + " is " + t);
+    int intValue1 = 4;
+    int intValue2 = 5;
+    boolean blnIsGreaterThan = intValue1 > intValue2;
+    System.out.println("The result of " + intValue1 + " > " + intValue2 + " is " + blnIsGreaterThan);
     
   }
 }
